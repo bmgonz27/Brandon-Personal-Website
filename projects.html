@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Brandon's Projects Page</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+
+    </head>
+    <body>
+
+        <style>
+            footer{
+                background-color: lightgray;
+                color:white;
+                text-align: center;
+                padding: 1rem 0;
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+            }
+            footer a{
+                text-decoration: none;
+            }
+        </style>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </div>
+                </div>
+            </div>
+            <i class='fas fa-football-ball ms auto' style="font-size:36px;color:green"></i>
+        </nav>
+
+        <h1>
+            Projects
+        </h1>
+
+        <div class="container my-3">
+            <div class="accordion" id="projectsAcc">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            Project 2861
+                        </button>
+                    </h2>
+
+                    <div id="collapseOne" class="accordion-collapse collapse"
+                        aria-labelledby="headingOne">
+                        <div class="accordion-body">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-5">
+                                    <img src="../resources/project2861ss.png"
+                                    class="img-fluid rounded shadow-sm">
+                                </div>
+                                <div class="col-md-7">
+                                    <p class="mb-2">
+                                        This is a personal project. Me and my two roommates are collaborating on a dungeon clicker type of game.
+                                        This game consists of loading visuals, adding gameplay functionality, and basic game inplementation using the built in library pygame.
+                                        This project is written in Python.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Computer Systems Performance Lab
+                        </button>
+                    </h2>
+
+                    <div id="collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo">
+                        <div class="accordion-body">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-5">
+                                    <img src="../resources/perf-lab-comp-sys.png"
+                                    class="img-fluid rounded shadow-sm">
+                                </div>
+                                <div class="col-md-7">
+                                    <p class="mb-2">
+                                        This project is from my Computer Systems class that I took in the Spring '24 semester.
+                                        Some of the techniques I learned when completing this were loop unrolling, eliminating redundant function calls, and utilizing the pragma omp commands.
+                                        This project was beneficial in teaching me the ways to make optimize code to run at maximum efficiency.
+                                        This project is written in C.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Data Structures Final
+                        </button>
+                    </h2>
+
+                    <div id="collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="headingThree">
+                        <div class="accordion-body">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-5">
+                                    <img src="../resources/data-struct-final.png"
+                                    class="img-fluid rounded shadow-sm">
+                                </div>
+                                <div class="col-md-7">
+                                    <p class="mb-2">
+                                        This project is from my Data Structures class that I took in the Fall '24 semester.
+                                        The project was mimicking how a file system inside of a computer works, I created functions that mirrored commands:
+                                        ls, dir, root, tree, ect. The project also utilized a hash table for the actual file storage.
+                                        The project was beneficial in teaching me how to write data structures and the benefits that come with them.
+                                        This project is written in C++.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <a href="https://www.facebook.com/brandon.gonzales.109685" target="_blank">
+                <i class="fa-brands fa-facebook-f" style="font-size:24px; color: grey;"></i>
+            </a>
+            <a href="https://www.instagram.com/brandon.gonzales10/" target="_blank">
+                <i class="fa-brands fa-instagram" style="font-size:24px; color: grey;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/brandon-gonzales5/" target="_blank">
+                <i class="fa-brands fa-linkedin" style="font-size:24px; color: grey;"></i>
+            </a>
+            <a href="https://github.com/bmgonz27/" target="_blank">
+                <i class="fa-brands fa-github" style="font-size:24px; color: grey;"></i>
+            </a>
+        </footer>
+    </body>
+</html>
