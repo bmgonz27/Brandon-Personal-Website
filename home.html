@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Brandon's Home Page</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <style>
+            html, body{
+                height: 100%;
+                margin: 0;
+            }
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+            .image-txt{
+                background-color: green;
+                color: white;
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                margin: 20px;
+            }
+            .image-txt img{
+                width: 400px;               
+                height: auto;
+                border-radius: 4px;
+            }
+            .image-text p {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                background-color: green; 
+                padding: 20px;                
+            }
+            footer{
+                background-color: lightgray;
+                color:white;
+                text-align: center;
+                padding: 1rem 0;
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+            }
+            footer a{
+                text-decoration: none;
+            }
+            .about-card{
+                padding: 20px;
+                border-radius: 6 px;
+                flex: 1;
+            }
+            .about-card h2 {
+                text-align: center;
+                margin-bottom: 12px;
+            }
+            .about-card p {
+                margin-bottom: 10px;
+                line-height: 1.6;
+            }
+            .about_page .resume_button{
+                display: block;
+                text-align: center;
+                font-weight: bold;
+                text-decoration: underline;
+                color: white;
+                margin-top: 12px;
+            }
+        </style>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </div>
+                </div>
+            </div>
+            <i class='fas fa-football-ball ms auto' style="font-size:36px;color:green"></i>
+        </nav>
+
+        <section class="about_page">
+            <div class="image-txt">
+                <img src="../resources/selfpic.jpg" class="personal-img"/>
+                <div class="about-card">
+                    <h2>ABOUT ME</h2>
+                    <p>
+                        My name is Brandon Gonzales. I am a third year computer science major here at CU Boulder. 
+                        I am from a very small town in the southeastern corner of Colorado called Granada. 
+                        I really enjoy all that coding has to offer, learning new syntax structures and just general aspects of coding is what drew me to pursue a career in the field. 
+                    </p>
+                    <p>
+                        I hope one day to be a head developer at a big corporation that involves sports. 
+                        Or I would even be open to having my own startup and see where we can go from there. 
+                        For more information about me check out the navigation bar or to see my resume, click on the resume link I have provided at the bottom here.
+                    </p>
+                    <p>
+                        I hope that whomever is using this website can find useful information about me in many ways, whether it be job scouting. Or 
+                        just wanting to find more information about me!
+                    </p>
+                    <a href="resume.html" class="resume_button">
+                        Click here to view resume
+                    </a>
+                </div>
+            </div>
+        </section>
+            
+        <footer>
+            <a href="https://www.facebook.com/brandon.gonzales.109685" target="_blank">
+                <i class="fa-brands fa-facebook-f" style="font-size:24px; color: grey;"></i>
+            </a>
+            <a href="https://www.instagram.com/brandon.gonzales10/" target="_blank">
+                <i class="fa-brands fa-instagram" style="font-size:24px; color: grey;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/brandon-gonzales5/" target="_blank">
+                <i class="fa-brands fa-linkedin" style="font-size:24px; color: grey;"></i>
+            </a>
+            <a href="https://github.com/bmgonz27/" target="_blank">
+                <i class="fa-brands fa-github" style="font-size:24px; color: grey;"></i>
+            </a>
+        </footer>
+
+    </body>
+</html>
